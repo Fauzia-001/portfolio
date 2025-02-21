@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-section{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #000;
+}
