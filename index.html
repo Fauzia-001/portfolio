@@ -3,49 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fauzia</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Fauzia Portfolio</title>
 </head>
 <body>
-    <main class="main-section">
-        <nav class="navbar">
-            <a href="/">
-             <h3 class="logo">Fauzia</h3>    
-            </a>
-            <ul class="links">
-                <li id="active">
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="#about">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Work
-                    </a>
-                </li>
-                <li>
-                    <a href="">Resume</a>
-                </li>
-                <li>
-                    <a href="">Contact</a>
-                </li>
+    <div class="header">
+        <div class="logo">
+            <h1> FAUZIA</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">work</a></li>
+                <li><a href="#">resume</a></li>
+                <li><a href="#">contact</a></li>
             </ul>
-        </nav>
+        </div>
+</div> 
+<div class="about">
+    <p>
+        Lorem ipsum dolor sit amet consectetur<br>
+         adipisicing elit. Labore, ut fuga? Est aperiam laborum,<br>
+         quis cum laudantium optio possimus dicta.
+    </p>
 
-        <!-- Home -->
-        <section>
-            <!-- Home Section -->
-        </section>
-
-        <section>
-            <!-- About Section -->
-        </section>
-
-        sc
-
-    </main>
+</div>  
+<div class="work">
+    <p> Below is a video to illustrate how we work</p>
+    <video width="200px" hieght="200px" controls src="videos/video1.mp4"></video>
+</div> 
+<div class="resume">
+    <p>
+        Lorem ipsum dolor sit amet consectetur<br> 
+        adipisicing elit. Explicabo esse itaque debitis quas<br>
+         ratione inventore animi accusamus libero sit,<br>
+          quis nisi minus? Excepturi praesentium dolore quam similique,<br>
+         necessitatibus qui aut.
+    </p>
+    <a href="documents/CNA CV.pdf" download="">
+        <button>Download Resume</button>
+      </a>
+      
+</div>
+<div class="contact">
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"  placeholder="write email">
+      
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"  placeholder="message" rows="4" required></textarea>
+      
+        <button type="submit"><a href="#">Submit</a></button>
+    </form>
+</div>
+<footer>
+    <a href=""><img src="images/icons8-facebook-48-removebg-preview.png" alt=""></a>
+    <a href=""><img src="images/icons8-instagram-48-removebg-preview.png" alt=""></a>
+    <a href=""><img src="images/icons8-twitter-48-removebg-preview.png" alt=""></a>
+    <a href=""><img src="images/icons8-whatsapp-48-removebg-preview.png" alt=""></a>
+</footer>
 </body>
 </html>
