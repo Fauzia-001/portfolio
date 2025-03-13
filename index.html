@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fauzia Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
@@ -47,15 +48,21 @@
 </div>
 <div class="contact">
     <form>
+        <div class="name">
+            
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="name" required>
-      
+      </div>
+
+      <div class="email">
         <label for="email">Email:</label>
         <input type="email" id="email" name="email"  placeholder="write email">
-      
+      </div>
+      <div class="message">
         <label for="message">Message:</label>
         <textarea id="message" name="message"  placeholder="message" rows="4" required></textarea>
-      
+      </div>
+        
         <button type="submit"><a href="#">Submit</a></button>
     </form>
 </div>
